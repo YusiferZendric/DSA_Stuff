@@ -16,7 +16,7 @@ def minimumRecolors(blocks: str, k: int) -> int:
                 streaks.append(1)
         
     # streaks = [x for x in streaks if x!=0]
-    if any(x>k for x in streaks): return 0
+    if any(x>=k for x in streaks): return 0
     minval = float('inf')
     for t in range(len(streaks)):
         total_sum = 0
