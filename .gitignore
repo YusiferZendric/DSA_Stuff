@@ -1,4 +1,4 @@
-.\.vscode\
-.\__pycache__\
-.\biological_simulation\
+.vscode/
+__pycache__/
+biological_simulation/
 *.exe
